@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="BANK.CSS">
+</head>
+<body>
+    
+    <header id="head">
+        <h1>DEE BANK</h1>
+        <h1>Create Account</h1>
+        <p>Fill your information below or register <br> with your social account</p>
+    </header>
+
+    <form id="form-container" >
+        <label for="text">Name</label><br>
+        <input type="text" id="myinput1" class="myinputname">
+        <p id="message1" class="myp1"></p>
+         <br><br>
+        <label for="text">Email</label><br>
+        <input type="text" id="myinput2" class="myinputemail">
+         <p id="message2" class="myp2"></p>
+         <br><br>
+        <label for="text">Mobile</label><br>
+        <input type="text" id="myinput3" class="myinputmobil">
+        <p id="message3" class="myp3"></p>
+         <br><br>
+        <label for="text">Create Password</label><br>
+        <input type="password" id="myinput4" class="myinputpassword">
+        <p id="message4" class="myp4"></p>
+         <br><br>
+        <label for="text">Confirm Password</label><br>
+        <input type="password" id="myinput5" class="myinputpassword1">
+        <p id="message5" class="myp5"></p>
+        <br><br>
+        <label for="">Enter your BVN/NIN number</label><br>
+        <input type="text" id="myinput6" class="myinputverification">
+        <p id="message6" class="myp6"></p>
+        <br>
+        <input type="radio" name="card" id="myinput7" class="radio">
+        <label for="text">NIN</label>
+
+        <input type="radio" name="card" id="myinput8" class="radio">
+        <label for="">BVN</label>
+        <p id="message7" class="myp7"></p>
+        <br><br>
+        
+        <input type="checkbox" id="myinput9" class="checkbox1">
+        <label for="">Agree with <a href="">Terms & Conditions</a></label><br><br><br>
+        <p id="message8" class="myp8"></p>
+
+        <button type="submit" class="mysign" id="mysin">Sign in</button>
+    </form>
+
+    <section class="state-sec">
+        <div class="state-con">
+            <h2>Thanks your information has been submitted</h2>
+            <button class="login-back">Re-sign in</button>
+        </div>
+    </section>
+    
+    <script src="BANK.JS"></script>
+</body>
+</html>

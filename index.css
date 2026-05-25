@@ -1,0 +1,170 @@
+body{
+    font-family: verdana;
+    font-size: 1em;
+    background-color: rgb(232, 221, 202);
+}
+
+header{
+    text-align: center;
+    color: rgba(3, 71, 3, 0.834);
+}
+section{
+    padding-left: 30px;
+}
+
+.myinputname{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    outline-color: green;
+}
+.myp1{
+    color: red;
+    font-size: 15px;
+}
+
+.myinputemail{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    outline-color: green;
+}
+
+.myp2{
+    color: red;
+    font-size: 15px;
+}
+
+.myinputmobil{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    outline-color: green;
+}
+
+.myp3{
+    color: red;
+    font-size: 15px;
+}
+
+.myinputpassword{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    outline-color: green;
+}
+
+.myp4{
+    color: red;
+    font-size: 15px;
+}
+
+.myinputpassword1{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    outline-color: green;
+}
+
+.myp5{
+    color: red;
+    font-size: 15px;
+}
+
+.myinputverification{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    outline-color: green;
+}
+
+.myp6{
+    color: red;
+    font-size: 15px;
+}
+
+.radio{
+    cursor: pointer;
+}
+
+.myp7{
+    color: red;
+    font-size: 15px;
+}
+
+
+.checkbox1{
+    cursor: pointer;
+}
+
+.myp8{
+    color: red;
+    font-size: 15px;
+}
+
+.mysign{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(41, 221, 41);
+    font-size: 18px;
+    outline-color: green;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+
+.mysign:hover{
+    background-color: green;
+}
+
+a{
+    color: green;
+}
+input[type="radio"], input[type="checkbox"]{
+    accent-color: green;
+}
+
+.state-sec {
+    display: none;
+    background-color: #ccc;
+    color: green;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.state-con {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.login-back {
+    background: green;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
